@@ -234,11 +234,16 @@ public final class R {
     }
     public static final class id {
         public static final int btnLogin=0x7f0a000b;
-        public static final int catalog=0x7f0a000f;
-        public static final int container=0x7f0a0012;
+        public static final int button1=0x7f0a0015;
+        public static final int button2=0x7f0a0017;
+        public static final int button3=0x7f0a0014;
+        public static final int catalog=0x7f0a001a;
+        public static final int container=0x7f0a001d;
         public static final int dialog_progress=0x7f0a0006;
         public static final int editText1=0x7f0a0009;
         public static final int editText2=0x7f0a000a;
+        public static final int editText3=0x7f0a0011;
+        public static final int editText4=0x7f0a0013;
         public static final int frameLogin=0x7f0a0008;
         public static final int head_arrowImageView=0x7f0a0002;
         public static final int head_contentLayout=0x7f0a0001;
@@ -246,14 +251,20 @@ public final class R {
         public static final int head_progressBar=0x7f0a0003;
         public static final int head_tipsTextView=0x7f0a0004;
         public static final int imageView1=0x7f0a000c;
-        public static final int imgDevider=0x7f0a000e;
-        public static final int imgLocate=0x7f0a0010;
-        public static final int menu_frame=0x7f0a000d;
-        public static final int pb_footer_view=0x7f0a0013;
+        public static final int imgDevider=0x7f0a0019;
+        public static final int imgLocate=0x7f0a001b;
+        public static final int menu_frame=0x7f0a0018;
+        public static final int pb_footer_view=0x7f0a001e;
         public static final int product_msg=0x7f0a0007;
+        public static final int scrollView1=0x7f0a000d;
         public static final int selected_view=0x7f0a0000;
-        public static final int title=0x7f0a0011;
-        public static final int tv_footer_view=0x7f0a0014;
+        public static final int textView1=0x7f0a000e;
+        public static final int textView2=0x7f0a000f;
+        public static final int textView3=0x7f0a0010;
+        public static final int textView4=0x7f0a0012;
+        public static final int textView5=0x7f0a0016;
+        public static final int title=0x7f0a001c;
+        public static final int tv_footer_view=0x7f0a001f;
     }
     public static final class integer {
         public static final int num_cols=0x7f090000;
@@ -262,21 +273,24 @@ public final class R {
         public static final int head=0x7f030000;
         public static final int layout_progress_dialog=0x7f030001;
         public static final int login_layout=0x7f030002;
-        public static final int menu_frame=0x7f030003;
-        public static final int sort_listview_item=0x7f030004;
-        public static final int startloading_layout=0x7f030005;
-        public static final int view_sms_footer=0x7f030006;
+        public static final int main_layout=0x7f030003;
+        public static final int menu_frame=0x7f030004;
+        public static final int sort_listview_item=0x7f030005;
+        public static final int startloading_layout=0x7f030006;
+        public static final int view_sms_footer=0x7f030007;
     }
     public static final class string {
         public static final int account=0x7f050013;
-        public static final int appName=0x7f050002;
+        public static final int address=0x7f05001f;
+        public static final int appName=0x7f050001;
         public static final int app_installing=0x7f050011;
         public static final int app_name=0x7f050000;
         public static final int app_running=0x7f050005;
+        public static final int bookid=0x7f050018;
         public static final int cancel=0x7f050004;
         public static final int common_pagetip_loading=0x7f05000f;
         public static final int confirm=0x7f050003;
-        public static final int crashversion=0x7f050001;
+        public static final int crashversion=0x7f050002;
         public static final int date_format_error=0x7f050008;
         public static final int error_fwq=0x7f050007;
         public static final int error_net=0x7f050006;
@@ -287,11 +301,18 @@ public final class R {
         public static final int hint_input_account=0x7f050016;
         public static final int hint_input_pwd=0x7f050017;
         public static final int is_logout=0x7f050012;
+        public static final int last=0x7f05001c;
         public static final int loading=0x7f050009;
         public static final int login=0x7f050015;
+        public static final int mobile=0x7f05001b;
+        public static final int next=0x7f05001d;
         public static final int please_input_all=0x7f050010;
         public static final int pwd=0x7f050014;
+        public static final int search=0x7f05001e;
         public static final int tip=0x7f05000a;
+        public static final int usemonth=0x7f050020;
+        public static final int usercode=0x7f05001a;
+        public static final int username=0x7f050019;
     }
     public static final class style {
         /** 
