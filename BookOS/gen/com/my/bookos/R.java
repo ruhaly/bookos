@@ -183,7 +183,6 @@ public final class R {
         public static final int pwd=0x7f060002;
         public static final int search=0x7f06000c;
         public static final int usemonth=0x7f06000e;
-        public static final int usemonth1=0x7f06000f;
         public static final int usercode=0x7f060008;
         public static final int username=0x7f060007;
     }
