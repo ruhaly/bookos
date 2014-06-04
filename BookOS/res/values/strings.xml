@@ -16,5 +16,10 @@
     <string name="search">搜索</string>
     <string name="address">地　址</string>
     <string name="usemonth">读　数</string>
+    <string name="hint_bookid">输入册号</string>
+    <string name="hint_username">输入姓名</string>
+    <string name="hint_usercode">输入编号</string>
+    <string name="hint_mobile">输入手机号</string>
+    <string name="hint_usemonth">输入读数</string>
 
 </resources>

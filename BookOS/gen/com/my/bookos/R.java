@@ -213,30 +213,32 @@ public final class R {
         public static final int input_little=0x7f02000b;
         public static final int input_login_bg=0x7f02000c;
         public static final int input_press_bg=0x7f02000d;
-        public static final int login_bg=0x7f02000e;
-        public static final int login_bg_daoying=0x7f02000f;
-        public static final int login_def=0x7f020010;
-        public static final int login_main_bg=0x7f020011;
-        public static final int login_press=0x7f020012;
-        public static final int main_content_bg=0x7f020013;
+        public static final int last=0x7f02000e;
+        public static final int login_bg=0x7f02000f;
+        public static final int login_bg_daoying=0x7f020010;
+        public static final int login_def=0x7f020011;
+        public static final int login_main_bg=0x7f020012;
+        public static final int login_press=0x7f020013;
+        public static final int main_content_bg=0x7f020014;
         /**  主页标签未选中颜色 
  主页标签未选中颜色 
          */
-        public static final int main_tab=0x7f02001f;
+        public static final int main_tab=0x7f020021;
         /**  主页标签选中颜色 
  主页标签选中颜色 
          */
-        public static final int main_tab_pressed=0x7f02001e;
-        public static final int mappoint=0x7f020014;
-        public static final int search_bar_edit_normal=0x7f020015;
-        public static final int search_bar_edit_pressed=0x7f020016;
-        public static final int search_bar_edit_selector=0x7f020017;
-        public static final int search_bar_icon_normal=0x7f020018;
-        public static final int sidebar_background=0x7f020019;
-        public static final int star=0x7f02001a;
-        public static final int startloading=0x7f02001b;
-        public static final int title_bg=0x7f02001c;
-        public static final int white_bg=0x7f02001d;
+        public static final int main_tab_pressed=0x7f020020;
+        public static final int mappoint=0x7f020015;
+        public static final int next=0x7f020016;
+        public static final int search_bar_edit_normal=0x7f020017;
+        public static final int search_bar_edit_pressed=0x7f020018;
+        public static final int search_bar_edit_selector=0x7f020019;
+        public static final int search_bar_icon_normal=0x7f02001a;
+        public static final int sidebar_background=0x7f02001b;
+        public static final int star=0x7f02001c;
+        public static final int startloading=0x7f02001d;
+        public static final int title_bg=0x7f02001e;
+        public static final int white_bg=0x7f02001f;
     }
     public static final class id {
         public static final int btnLogin=0x7f0a000b;
@@ -304,8 +306,13 @@ public final class R {
         public static final int filemgt_upload_pagetip_recentupdate=0x7f05000c;
         public static final int filemgt_upload_pagetip_refreshing=0x7f05000d;
         public static final int filemgt_upload_pagetip_releasetorefresh=0x7f05000e;
+        public static final int hint_bookid=0x7f050021;
         public static final int hint_input_account=0x7f050016;
         public static final int hint_input_pwd=0x7f050017;
+        public static final int hint_mobile=0x7f050024;
+        public static final int hint_usemonth=0x7f050025;
+        public static final int hint_usercode=0x7f050023;
+        public static final int hint_username=0x7f050022;
         public static final int is_logout=0x7f050012;
         public static final int last=0x7f05001c;
         public static final int loading=0x7f050009;
