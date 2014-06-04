@@ -200,53 +200,59 @@ public final class R {
     }
     public static final class drawable {
         public static final int app_title=0x7f020000;
-        public static final int btn_login_bg=0x7f020001;
-        public static final int ch_logo=0x7f020002;
-        public static final int city_item_title=0x7f020003;
-        public static final int city_listview_devider=0x7f020004;
-        public static final int divider=0x7f020005;
-        public static final int divider_horizontal_timeline=0x7f020006;
-        public static final int emotionstore_progresscancelbtn=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int ic_pulltorefresh_arrow=0x7f020009;
-        public static final int input_def_bg=0x7f02000a;
-        public static final int input_little=0x7f02000b;
-        public static final int input_login_bg=0x7f02000c;
-        public static final int input_press_bg=0x7f02000d;
-        public static final int last=0x7f02000e;
-        public static final int login_bg=0x7f02000f;
-        public static final int login_bg_daoying=0x7f020010;
-        public static final int login_def=0x7f020011;
-        public static final int login_main_bg=0x7f020012;
-        public static final int login_press=0x7f020013;
-        public static final int main_content_bg=0x7f020014;
+        public static final int btn_last_bg=0x7f020001;
+        public static final int btn_login_bg=0x7f020002;
+        public static final int btn_next_bg=0x7f020003;
+        public static final int btn_save_bg=0x7f020004;
+        public static final int ch_logo=0x7f020005;
+        public static final int city_item_title=0x7f020006;
+        public static final int city_listview_devider=0x7f020007;
+        public static final int divider=0x7f020008;
+        public static final int divider_horizontal_timeline=0x7f020009;
+        public static final int emotionstore_progresscancelbtn=0x7f02000a;
+        public static final int ic_launcher=0x7f02000b;
+        public static final int ic_pulltorefresh_arrow=0x7f02000c;
+        public static final int input_def_bg=0x7f02000d;
+        public static final int input_little=0x7f02000e;
+        public static final int input_login_bg=0x7f02000f;
+        public static final int input_press_bg=0x7f020010;
+        public static final int last=0x7f020011;
+        public static final int last_press=0x7f020012;
+        public static final int login_bg=0x7f020013;
+        public static final int login_bg_daoying=0x7f020014;
+        public static final int login_def=0x7f020015;
+        public static final int login_main_bg=0x7f020016;
+        public static final int login_press=0x7f020017;
+        public static final int main_content_bg=0x7f020018;
         /**  主页标签未选中颜色 
  主页标签未选中颜色 
          */
-        public static final int main_tab=0x7f020021;
+        public static final int main_tab=0x7f020028;
         /**  主页标签选中颜色 
  主页标签选中颜色 
          */
-        public static final int main_tab_pressed=0x7f020020;
-        public static final int mappoint=0x7f020015;
-        public static final int next=0x7f020016;
-        public static final int search_bar_edit_normal=0x7f020017;
-        public static final int search_bar_edit_pressed=0x7f020018;
-        public static final int search_bar_edit_selector=0x7f020019;
-        public static final int search_bar_icon_normal=0x7f02001a;
-        public static final int sidebar_background=0x7f02001b;
-        public static final int star=0x7f02001c;
-        public static final int startloading=0x7f02001d;
-        public static final int title_bg=0x7f02001e;
-        public static final int white_bg=0x7f02001f;
+        public static final int main_tab_pressed=0x7f020027;
+        public static final int mappoint=0x7f020019;
+        public static final int next=0x7f02001a;
+        public static final int next_press=0x7f02001b;
+        public static final int save_def=0x7f02001c;
+        public static final int save_press=0x7f02001d;
+        public static final int search_bar_edit_normal=0x7f02001e;
+        public static final int search_bar_edit_pressed=0x7f02001f;
+        public static final int search_bar_edit_selector=0x7f020020;
+        public static final int search_bar_icon_normal=0x7f020021;
+        public static final int sidebar_background=0x7f020022;
+        public static final int star=0x7f020023;
+        public static final int startloading=0x7f020024;
+        public static final int title_bg=0x7f020025;
+        public static final int white_bg=0x7f020026;
     }
     public static final class id {
         public static final int btnLogin=0x7f0a000b;
-        public static final int button1=0x7f0a0015;
-        public static final int button2=0x7f0a0017;
+        public static final int button2=0x7f0a0015;
         public static final int button3=0x7f0a0014;
-        public static final int catalog=0x7f0a001a;
-        public static final int container=0x7f0a001d;
+        public static final int catalog=0x7f0a0018;
+        public static final int container=0x7f0a001b;
         public static final int dialog_progress=0x7f0a0006;
         public static final int editText1=0x7f0a0009;
         public static final int editText2=0x7f0a000a;
@@ -259,10 +265,10 @@ public final class R {
         public static final int head_progressBar=0x7f0a0003;
         public static final int head_tipsTextView=0x7f0a0004;
         public static final int imageView1=0x7f0a000c;
-        public static final int imgDevider=0x7f0a0019;
-        public static final int imgLocate=0x7f0a001b;
-        public static final int menu_frame=0x7f0a0018;
-        public static final int pb_footer_view=0x7f0a001e;
+        public static final int imgDevider=0x7f0a0017;
+        public static final int imgLocate=0x7f0a0019;
+        public static final int menu_frame=0x7f0a0016;
+        public static final int pb_footer_view=0x7f0a001c;
         public static final int product_msg=0x7f0a0007;
         public static final int scrollView1=0x7f0a000d;
         public static final int selected_view=0x7f0a0000;
@@ -270,9 +276,8 @@ public final class R {
         public static final int textView2=0x7f0a000f;
         public static final int textView3=0x7f0a0010;
         public static final int textView4=0x7f0a0012;
-        public static final int textView5=0x7f0a0016;
-        public static final int title=0x7f0a001c;
-        public static final int tv_footer_view=0x7f0a001f;
+        public static final int title=0x7f0a001a;
+        public static final int tv_footer_view=0x7f0a001d;
     }
     public static final class integer {
         public static final int num_cols=0x7f090000;
