@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">80dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+    <!-- Default -->
+    <dimen name="radius_default">3dp</dimen>
+    <dimen name="padding_default">8dp</dimen>
+    <dimen name="margin_default">5dp</dimen>
+    <dimen name="line_default">1dp</dimen>
+
+    <!-- Products -->
+    <dimen name="height_list">80dp</dimen>
+    <dimen name="size_list_image">64dp</dimen>
+    <dimen name="font_size_description">15sp</dimen>
+    <dimen name="margin_setting">20dp</dimen>
+    <dimen name="font_size_new_tag">11sp</dimen>
+    <dimen name="padding_new_tag">3dp</dimen>
+    <dimen name="sp15">15.0dip</dimen>
+    <dimen name="sp20">20.0dip</dimen>
+    <dimen name="sp12">12.0dip</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="sp14">14.0dip</dimen>
+    <!-- +++++++++++++++++++720p距离像素 begin++++++++++++++++++++++++ -->
+    <dimen name="font_size_title">36px</dimen>
+    <dimen name="font_size_city_select_item">30px</dimen>
+    <dimen name="view_back_btn_margin_left">30px</dimen>
+    <dimen name="font_size_search_btn">40px</dimen>
+    <dimen name="view_search_input_margin_left">25px</dimen>
+    <dimen name="view_search_input_padding_left">30px</dimen>
+    <dimen name="view_community_item_text_margin_left">55px</dimen>
+    <dimen name="view_community_item_text_margin_top">40px</dimen>
+    <dimen name="view_community_item_text_margin_bottom">25px</dimen>
+    <dimen name="font_community_item_text_02_size_title">24px</dimen>
+    <dimen name="view_community_item_text_02_margin_bottom">40px</dimen>
+    <dimen name="view_ad_height">352px</dimen>
+    <dimen name="view_ad_margin">30px</dimen>
+    <dimen name="view_today_recommend_frame_heigth">84px</dimen>
+    <dimen name="view_today_recommend_text_margin_left">25px</dimen>
+    <dimen name="view_today_recommend_jiantou_margin_right">20px</dimen>
+    <dimen name="font_size_plugin">28px</dimen>
+    <dimen name="view_plugin_margin_left">30px</dimen>
+    <dimen name="view_promanage_msg_margin_left">9px</dimen>
+    <dimen name="view_promanage_msg_margin_top">11px</dimen>
+
+    <!-- +++++++++++++++++++720P距离像素 end++++++++++++++++++++++++ -->
+
+</resources>

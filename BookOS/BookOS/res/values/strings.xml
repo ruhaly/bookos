@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">BookOS</string>
+    <string name="account">账号：</string>
+    <string name="pwd">密码：</string>
+    <string name="login">登录</string>
+    <string name="hint_input_account">输入账号/姓名</string>
+    <string name="hint_input_pwd">输入密码</string>
+    <string name="bookid">册　号</string>
+    <string name="name">姓　名</string>
+    <string name="code">编　号</string>
+    <string name="mobile">手机号</string>
+    <string name="last">上一条</string>
+    <string name="next">下一条</string>
+    <string name="search">搜\u3000索</string>
+    <string name="address">地　址</string>
+    <string name="usemonth">读　数</string>
+    <string name="hint_bookid">输入册号</string>
+    <string name="hint_username">输入姓名</string>
+    <string name="hint_usercode">输入编号</string>
+    <string name="hint_mobile">输入手机号</string>
+    <string name="hint_usemonth">输入读数</string>
+    <string name="login_failed">登陆失败</string>
+    <!-- 用户编号，用户姓名，上次水量，上次读数，本次读数，用户地址 -->
+
+    <string name="user_code">用户编号</string>
+    <string name="user_name">用户姓名</string>
+    <string name="user_address">用户地址</string>
+    <string name="last_water">上次水量</string>
+    <string name="last_reading">上次读数</string>
+    <string name="this_reading">本次读数</string>
+
+</resources>
