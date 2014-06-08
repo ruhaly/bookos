@@ -61,11 +61,13 @@ public class LoginLogic extends SuperLogic implements MsgWhat {
 
 			JSONObject jsonObject = new JSONObject(response);
 			String status = jsonObject.optString("status");
-			if (status.endsWith(ResultCode.RESULT_SUCCESS)) {
+			if (status.equals(ResultCode.RESULT_SUCCESS)) {
 				user.setEmployeeid(JsonParse.parseLoginData(response));
 				handler.sendEmptyMessage(MSG_LOGIN_SUCCESS);
-			} else {
-				handler.sendEmptyMessage(MSG_LOGIN_FAILED);
+			} else if (status.equals(ResultCode.RESULT_LOGIN_ERROR_01)) {
+				handler.sendEmptyMessage(MSG_LOGIN_FAILED01);
+			} else if (status.equals(ResultCode.RESULT_LOGIN_ERROR_02)) {
+				handler.sendEmptyMessage(MSG_LOGIN_FAILED02);
 			}
 
 		} catch (Exception e) {

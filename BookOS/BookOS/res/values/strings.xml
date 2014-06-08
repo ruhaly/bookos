@@ -8,6 +8,7 @@
     <string name="hint_input_account">输入账号/姓名</string>
     <string name="hint_input_pwd">输入密码</string>
     <string name="bookid">册　号</string>
+    <string name="time">时　间</string>
     <string name="name">姓　名</string>
     <string name="code">编　号</string>
     <string name="mobile">手机号</string>
@@ -17,11 +18,14 @@
     <string name="address">地　址</string>
     <string name="usemonth">读　数</string>
     <string name="hint_bookid">输入册号</string>
+    <string name="hint_time">输入时间</string>
     <string name="hint_username">输入姓名</string>
     <string name="hint_usercode">输入编号</string>
     <string name="hint_mobile">输入手机号</string>
     <string name="hint_usemonth">输入读数</string>
-    <string name="login_failed">登陆失败</string>
+    <string name="login_failed01">登入密码错误或用户不存在</string>
+    <string name="login_failed02">抄表员手机号不区配</string>
+    <string name="select_time">请选择时间</string>
     <!-- 用户编号，用户姓名，上次水量，上次读数，本次读数，用户地址 -->
 
     <string name="user_code">用户编号</string>
@@ -30,5 +34,12 @@
     <string name="last_water">上次水量</string>
     <string name="last_reading">上次读数</string>
     <string name="this_reading">本次读数</string>
+    <string name="tip_save">本次读数必须大于等于上次读数</string>
+    <string name="no_more_data">没有更多数据了</string>
+    <string name="location_null">定位数据为空，请等待定位完成</string>
+    <string name="save_success">保存成功~</string>
+    <string name="tip_date">日期不能大于当前日期~</string>
+    <string name="more_condition">更多条件</string>
+    <string name="data_empty">无抄表记录</string>
 
 </resources>

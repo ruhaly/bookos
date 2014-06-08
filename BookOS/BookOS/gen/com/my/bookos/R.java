@@ -251,21 +251,26 @@ public final class R {
         public static final int white_bg=0x7f020029;
     }
     public static final class id {
-        public static final int btnLast=0x7f0a001e;
+        public static final int btnCancel=0x7f0a002a;
+        public static final int btnConfirm=0x7f0a002b;
+        public static final int btnLast=0x7f0a0021;
         public static final int btnLogin=0x7f0a000c;
-        public static final int btnNext=0x7f0a0020;
-        public static final int btnSave=0x7f0a001f;
-        public static final int btnSearch=0x7f0a0017;
-        public static final int catalog=0x7f0a0023;
+        public static final int btnMore=0x7f0a0019;
+        public static final int btnNext=0x7f0a0023;
+        public static final int btnSave=0x7f0a0022;
+        public static final int btnSearch=0x7f0a001a;
+        public static final int catalog=0x7f0a0026;
         public static final int container=0x7f0a0001;
+        public static final int datePicker=0x7f0a0029;
         public static final int dialog_progress=0x7f0a0007;
         public static final int etAccount=0x7f0a000a;
         public static final int etBookId=0x7f0a0010;
-        public static final int etCode=0x7f0a0014;
-        public static final int etName=0x7f0a0012;
-        public static final int etPhone=0x7f0a0016;
+        public static final int etCode=0x7f0a0016;
+        public static final int etName=0x7f0a0014;
+        public static final int etPhone=0x7f0a0018;
         public static final int etPwd=0x7f0a000b;
-        public static final int etThisReading=0x7f0a001d;
+        public static final int etThisReading=0x7f0a0020;
+        public static final int frameCondition=0x7f0a0012;
         public static final int frameLogin=0x7f0a0009;
         public static final int head_arrowImageView=0x7f0a0003;
         public static final int head_contentLayout=0x7f0a0002;
@@ -273,24 +278,25 @@ public final class R {
         public static final int head_progressBar=0x7f0a0004;
         public static final int head_tipsTextView=0x7f0a0005;
         public static final int imageView1=0x7f0a000d;
-        public static final int imgDevider=0x7f0a0022;
-        public static final int imgLocate=0x7f0a0024;
-        public static final int menu_frame=0x7f0a0021;
-        public static final int pb_footer_view=0x7f0a0026;
+        public static final int imgDevider=0x7f0a0025;
+        public static final int imgLocate=0x7f0a0027;
+        public static final int menu_frame=0x7f0a0024;
+        public static final int pb_footer_view=0x7f0a002c;
         public static final int product_msg=0x7f0a0008;
         public static final int scrollView1=0x7f0a000e;
         public static final int selected_view=0x7f0a0000;
         public static final int textView1=0x7f0a000f;
-        public static final int textView2=0x7f0a0011;
-        public static final int textView3=0x7f0a0013;
-        public static final int textView4=0x7f0a0015;
-        public static final int title=0x7f0a0025;
-        public static final int tvLastReading=0x7f0a001c;
-        public static final int tvLastWater=0x7f0a001b;
-        public static final int tvUserAddress=0x7f0a001a;
-        public static final int tvUserCode=0x7f0a0018;
-        public static final int tvUserName=0x7f0a0019;
-        public static final int tv_footer_view=0x7f0a0027;
+        public static final int textView2=0x7f0a0013;
+        public static final int textView3=0x7f0a0015;
+        public static final int textView4=0x7f0a0017;
+        public static final int title=0x7f0a0028;
+        public static final int tvLastReading=0x7f0a001f;
+        public static final int tvLastWater=0x7f0a001e;
+        public static final int tvTime=0x7f0a0011;
+        public static final int tvUserAddress=0x7f0a001d;
+        public static final int tvUserCode=0x7f0a001b;
+        public static final int tvUserName=0x7f0a001c;
+        public static final int tv_footer_view=0x7f0a002d;
     }
     public static final class integer {
         public static final int num_cols=0x7f090000;
@@ -304,21 +310,23 @@ public final class R {
         public static final int menu_frame=0x7f030005;
         public static final int sort_listview_item=0x7f030006;
         public static final int startloading_layout=0x7f030007;
-        public static final int view_sms_footer=0x7f030008;
+        public static final int time_picker_layout=0x7f030008;
+        public static final int view_sms_footer=0x7f030009;
     }
     public static final class string {
         public static final int account=0x7f050013;
-        public static final int address=0x7f05001f;
+        public static final int address=0x7f050020;
         public static final int appName=0x7f050002;
         public static final int app_installing=0x7f050011;
         public static final int app_name=0x7f050000;
         public static final int app_running=0x7f050005;
         public static final int bookid=0x7f050018;
         public static final int cancel=0x7f050004;
-        public static final int code=0x7f05001a;
+        public static final int code=0x7f05001b;
         public static final int common_pagetip_loading=0x7f05000f;
         public static final int confirm=0x7f050003;
         public static final int crashversion=0x7f050001;
+        public static final int data_empty=0x7f050037;
         public static final int date_format_error=0x7f050008;
         public static final int error_fwq=0x7f050007;
         public static final int error_net=0x7f050006;
@@ -326,34 +334,44 @@ public final class R {
         public static final int filemgt_upload_pagetip_recentupdate=0x7f05000c;
         public static final int filemgt_upload_pagetip_refreshing=0x7f05000d;
         public static final int filemgt_upload_pagetip_releasetorefresh=0x7f05000e;
-        public static final int hint_bookid=0x7f050021;
+        public static final int hint_bookid=0x7f050022;
         public static final int hint_input_account=0x7f050016;
         public static final int hint_input_pwd=0x7f050017;
-        public static final int hint_mobile=0x7f050024;
-        public static final int hint_usemonth=0x7f050025;
-        public static final int hint_usercode=0x7f050023;
-        public static final int hint_username=0x7f050022;
+        public static final int hint_mobile=0x7f050026;
+        public static final int hint_time=0x7f050023;
+        public static final int hint_usemonth=0x7f050027;
+        public static final int hint_usercode=0x7f050025;
+        public static final int hint_username=0x7f050024;
         public static final int is_logout=0x7f050012;
-        public static final int last=0x7f05001c;
-        public static final int last_reading=0x7f05002b;
-        public static final int last_water=0x7f05002a;
+        public static final int last=0x7f05001d;
+        public static final int last_reading=0x7f05002f;
+        public static final int last_water=0x7f05002e;
         public static final int loading=0x7f050009;
+        public static final int location_null=0x7f050033;
         public static final int login=0x7f050015;
-        public static final int login_failed=0x7f050026;
-        public static final int mobile=0x7f05001b;
-        public static final int name=0x7f050019;
-        public static final int next=0x7f05001d;
+        public static final int login_failed01=0x7f050028;
+        public static final int login_failed02=0x7f050029;
+        public static final int mobile=0x7f05001c;
+        public static final int more_condition=0x7f050036;
+        public static final int name=0x7f05001a;
+        public static final int next=0x7f05001e;
+        public static final int no_more_data=0x7f050032;
         public static final int please_input_all=0x7f050010;
         public static final int pwd=0x7f050014;
-        public static final int search=0x7f05001e;
-        public static final int this_reading=0x7f05002c;
+        public static final int save_success=0x7f050034;
+        public static final int search=0x7f05001f;
+        public static final int select_time=0x7f05002a;
+        public static final int this_reading=0x7f050030;
+        public static final int time=0x7f050019;
         public static final int tip=0x7f05000a;
-        public static final int usemonth=0x7f050020;
-        public static final int user_address=0x7f050029;
+        public static final int tip_date=0x7f050035;
+        public static final int tip_save=0x7f050031;
+        public static final int usemonth=0x7f050021;
+        public static final int user_address=0x7f05002d;
         /**  用户编号，用户姓名，上次水量，上次读数，本次读数，用户地址 
          */
-        public static final int user_code=0x7f050027;
-        public static final int user_name=0x7f050028;
+        public static final int user_code=0x7f05002b;
+        public static final int user_name=0x7f05002c;
     }
     public static final class style {
         /** 
@@ -396,15 +414,6 @@ public final class R {
 
         
 
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
@@ -421,10 +430,31 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
- Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int MediaController_Text=0x7f060003;
         public static final int MyDialog=0x7f060002;
+        /**  社区黄页 
+ 积分 
+         */
+        public static final int TextViewIntegrationLittleTitleStyle=0x7f060006;
+        public static final int TextViewIntegrationMyChangeStyle=0x7f060008;
+        public static final int TextViewIntegrationStyle=0x7f060007;
+        public static final int TextViewTelephoneStyle=0x7f060005;
+        /**  社区影院 
+ 社区黄页 
+         */
+        public static final int TextViewWordStyle=0x7f060004;
+        public static final int gridview_style=0x7f06000d;
+        public static final int listview_style=0x7f06000b;
+        /**  积分 
+ 商圈 
+ 标题中央文字 
+         */
+        public static final int title_center_style=0x7f060009;
+        /**  标题右侧文字按钮 
+         */
+        public static final int title_right_style=0x7f06000a;
+        public static final int view_common_margin=0x7f06000c;
     }
 }

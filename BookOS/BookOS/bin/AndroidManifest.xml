@@ -54,6 +54,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
+        android:name="com.my.bookos.BoApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/appName"

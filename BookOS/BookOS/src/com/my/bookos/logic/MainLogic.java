@@ -52,7 +52,8 @@ public class MainLogic extends SuperLogic implements MsgWhat {
 
 	public void requestSave(String employeeid, String userid,
 			String lastreading, String lastwateramount, String currentreading,
-			String currentwateramount, String readaddr, HttpUtils httpUtils) {
+			String currentwateramount, String readaddr, String readmonth,
+			HttpUtils httpUtils) {
 		RequestParams params = new RequestParams();
 		params.addBodyParameter("employeeid", employeeid);
 		params.addBodyParameter("userid", userid);
@@ -61,6 +62,7 @@ public class MainLogic extends SuperLogic implements MsgWhat {
 		params.addBodyParameter("currentreading", currentreading);
 		params.addBodyParameter("currentwateramount", currentwateramount);
 		params.addBodyParameter("readaddr", readaddr);
+		params.addBodyParameter("readmonth", readmonth);
 		httpHanlderSave = HttpSenderUtils.sendMsgImpl(HttpAction.ACTION_SAVE,
 				params, HttpSenderUtils.METHOD_POST, httpUtils,
 				RequestId.RID_SAVE, this, false);

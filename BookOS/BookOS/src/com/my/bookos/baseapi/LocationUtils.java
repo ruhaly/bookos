@@ -104,8 +104,8 @@ public class LocationUtils {
 					AppLog.LEVEL_INFO);
 			if (!StringUtils.isEmpty(location.getCity())) {
 				callBack.update(location);
-				mLocationClient.stop();
-				mLocationClient = null;
+//				mLocationClient.stop();
+//				mLocationClient = null;
 			}
 			logMsg(sb.toString());
 		}

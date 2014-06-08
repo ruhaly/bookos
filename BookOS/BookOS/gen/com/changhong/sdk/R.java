@@ -128,21 +128,21 @@ public final class R {
 		public static final int sidebar_background = 0x7f020025;
 	}
 	public static final class id {
-		public static final int catalog = 0x7f0a0023;
+		public static final int catalog = 0x7f0a0026;
 		public static final int dialog_progress = 0x7f0a0007;
 		public static final int head_arrowImageView = 0x7f0a0003;
 		public static final int head_contentLayout = 0x7f0a0002;
 		public static final int head_lastUpdatedTextView = 0x7f0a0006;
 		public static final int head_progressBar = 0x7f0a0004;
 		public static final int head_tipsTextView = 0x7f0a0005;
-		public static final int imgDevider = 0x7f0a0022;
-		public static final int imgLocate = 0x7f0a0024;
-		public static final int menu_frame = 0x7f0a0021;
-		public static final int pb_footer_view = 0x7f0a0026;
+		public static final int imgDevider = 0x7f0a0025;
+		public static final int imgLocate = 0x7f0a0027;
+		public static final int menu_frame = 0x7f0a0024;
+		public static final int pb_footer_view = 0x7f0a002c;
 		public static final int product_msg = 0x7f0a0008;
 		public static final int selected_view = 0x7f0a0000;
-		public static final int title = 0x7f0a0025;
-		public static final int tv_footer_view = 0x7f0a0027;
+		public static final int title = 0x7f0a0028;
+		public static final int tv_footer_view = 0x7f0a002d;
 	}
 	public static final class integer {
 		public static final int num_cols = 0x7f090000;
@@ -152,7 +152,7 @@ public final class R {
 		public static final int layout_progress_dialog = 0x7f030002;
 		public static final int menu_frame = 0x7f030005;
 		public static final int sort_listview_item = 0x7f030006;
-		public static final int view_sms_footer = 0x7f030008;
+		public static final int view_sms_footer = 0x7f030009;
 	}
 	public static final class string {
 		public static final int appName = 0x7f050002;

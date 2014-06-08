@@ -5,6 +5,7 @@ import android.content.DialogInterface.OnDismissListener;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Message;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.EditText;
 
@@ -72,8 +73,12 @@ public class LoginActivity extends SuperActivity implements MsgWhat {
 			startActivity(new Intent(getBaseContext(), MainActivity.class));
 			return;
 		}
-		case MSG_LOGIN_FAILED: {
-			showToast(getString(R.string.login_failed));
+		case MSG_LOGIN_FAILED01: {
+			showToast(getString(R.string.login_failed01));
+			break;
+		}
+		case MSG_LOGIN_FAILED02: {
+			showToast(getString(R.string.login_failed02));
 			break;
 		}
 
@@ -81,5 +86,14 @@ public class LoginActivity extends SuperActivity implements MsgWhat {
 			break;
 		}
 		super.handleMsg(msg);
+	}
+
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			showLogoutDialog();
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
 	}
 }
