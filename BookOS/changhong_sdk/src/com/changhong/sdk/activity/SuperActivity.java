@@ -239,7 +239,7 @@ public abstract class SuperActivity extends DialogActivity implements
 	}
 
 	public void showProcessDialog(DialogInterface.OnDismissListener dismiss) {
-		showProgressDialog("", getString(R.string.loading), true, dismiss);
+		showProgressDialog("", getString(R.string.loading), false, dismiss);
 	}
 
 	public String parseXML(String xmlPath) {
@@ -507,12 +507,18 @@ public abstract class SuperActivity extends DialogActivity implements
 	 * @return
 	 */
 	public String getPhoneNumber() {
-		// 创建电话管理与手机建立连接
-		TelephonyManager tm = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-		String phoneId = tm.getLine1Number();
-		if (phoneId.startsWith("+86")) {
-			return phoneId.replace("+86", "");
+		String phoneId = "";
+		try {
+			// 创建电话管理与手机建立连接
+			TelephonyManager tm = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+			phoneId = tm.getLine1Number();
+			if (phoneId.startsWith("+86")) {
+				phoneId = phoneId.replace("+86", "");
+			}
+		} catch (Exception e) {
+			phoneId = "";
 		}
+
 		return phoneId;
 	}
 }
