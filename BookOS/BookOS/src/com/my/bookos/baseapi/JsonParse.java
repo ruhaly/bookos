@@ -30,6 +30,7 @@ public class JsonParse {
 		bd.setLastwateramount(jsonObject.optString("lastwateramount"));
 		bd.setWatertype(jsonObject.optString("watertype"));
 		bd.setMeterkind(jsonObject.optString("meterkind"));
+		bd.setBookid(jsonObject.optString("bookid"));
 		return bd;
 	}
 }

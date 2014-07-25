@@ -110,6 +110,8 @@ public class MainLogic extends SuperLogic implements MsgWhat {
 			String status = jsonObject.optString("status");
 			if (status.endsWith(ResultCode.RESULT_SUCCESS)) {
 				handler.sendEmptyMessage(MSG_SAVE_SUCCESS);
+			} else {
+				handler.sendEmptyMessage(Integer.valueOf(status));
 			}
 		} catch (Exception e) {
 			handler.sendEmptyMessage(DATA_FORMAT_ERROR_MSGWHAT);

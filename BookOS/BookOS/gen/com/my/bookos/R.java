@@ -251,17 +251,17 @@ public final class R {
         public static final int white_bg=0x7f020029;
     }
     public static final class id {
-        public static final int btnCancel=0x7f0a002f;
-        public static final int btnConfirm=0x7f0a0030;
-        public static final int btnLast=0x7f0a0026;
+        public static final int btnCancel=0x7f0a0030;
+        public static final int btnConfirm=0x7f0a0031;
+        public static final int btnLast=0x7f0a0027;
         public static final int btnLogin=0x7f0a000c;
         public static final int btnMore=0x7f0a001a;
-        public static final int btnNext=0x7f0a0028;
-        public static final int btnSave=0x7f0a0027;
+        public static final int btnNext=0x7f0a0029;
+        public static final int btnSave=0x7f0a0028;
         public static final int btnSearch=0x7f0a001b;
-        public static final int catalog=0x7f0a002b;
+        public static final int catalog=0x7f0a002c;
         public static final int container=0x7f0a0001;
-        public static final int datePicker=0x7f0a002e;
+        public static final int datePicker=0x7f0a002f;
         public static final int dialog_progress=0x7f0a0007;
         public static final int etAccount=0x7f0a000a;
         public static final int etBookId=0x7f0a0012;
@@ -279,10 +279,10 @@ public final class R {
         public static final int head_progressBar=0x7f0a0004;
         public static final int head_tipsTextView=0x7f0a0005;
         public static final int imageView1=0x7f0a000d;
-        public static final int imgDevider=0x7f0a002a;
-        public static final int imgLocate=0x7f0a002c;
-        public static final int menu_frame=0x7f0a0029;
-        public static final int pb_footer_view=0x7f0a0031;
+        public static final int imgDevider=0x7f0a002b;
+        public static final int imgLocate=0x7f0a002d;
+        public static final int menu_frame=0x7f0a002a;
+        public static final int pb_footer_view=0x7f0a0032;
         public static final int product_msg=0x7f0a0008;
         public static final int scrollView1=0x7f0a000e;
         public static final int selected_view=0x7f0a0000;
@@ -290,18 +290,19 @@ public final class R {
         public static final int textView2=0x7f0a0013;
         public static final int textView3=0x7f0a0015;
         public static final int textView4=0x7f0a0017;
-        public static final int title=0x7f0a002d;
-        public static final int tvLastReading=0x7f0a0023;
-        public static final int tvLastWater=0x7f0a0022;
-        public static final int tvThisWater=0x7f0a0024;
+        public static final int title=0x7f0a002e;
+        public static final int tvBookid=0x7f0a0021;
+        public static final int tvLastReading=0x7f0a0024;
+        public static final int tvLastWater=0x7f0a0023;
+        public static final int tvThisWater=0x7f0a0026;
         public static final int tvTime=0x7f0a000f;
         public static final int tvUserAddress=0x7f0a001e;
         public static final int tvUserCode=0x7f0a001c;
         public static final int tvUserMobilephone=0x7f0a001f;
         public static final int tvUserName=0x7f0a001d;
         public static final int tvUsertelephone=0x7f0a0020;
-        public static final int tvWatertype=0x7f0a0021;
-        public static final int tv_footer_view=0x7f0a0032;
+        public static final int tvWatertype=0x7f0a0022;
+        public static final int tv_footer_view=0x7f0a0033;
     }
     public static final class integer {
         public static final int num_cols=0x7f090000;

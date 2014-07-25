@@ -20,7 +20,7 @@ import com.lidroid.xutils.http.client.HttpRequest.HttpMethod;
  */
 public class HttpSenderUtils {
 
-	public static final String HOST = "http://junjunxia.wicp.net/skyTeam/mobile";
+	public static final String HOST = "http://www.ryzls.com/skyTeam/mobile";
 
 	public static final byte METHOD_GET = 0;
 

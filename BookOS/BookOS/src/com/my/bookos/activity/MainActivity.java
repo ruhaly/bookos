@@ -32,6 +32,7 @@ import com.lidroid.xutils.view.annotation.event.OnClick;
 import com.my.bookos.R;
 import com.my.bookos.baseapi.LocationUtils;
 import com.my.bookos.baseapi.MsgWhat;
+import com.my.bookos.baseapi.ResultCode;
 import com.my.bookos.bean.CallBack;
 import com.my.bookos.logic.LoginLogic;
 import com.my.bookos.logic.MainLogic;
@@ -89,7 +90,7 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 	@ViewInject(R.id.tvUsertelephone)
 	private TextView tvUsertelephone;
 
-	@ViewInject(R.id.tvUsertelephone)
+	@ViewInject(R.id.tvUserMobilephone)
 	private TextView tvUserMobilephone;
 
 	@ViewInject(R.id.tvWatertype)
@@ -97,6 +98,9 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 
 	@ViewInject(R.id.tvThisWater)
 	private TextView tvThisWater;
+
+	@ViewInject(R.id.tvBookid)
+	private TextView tvBookid;
 
 	@Override
 	public void initData() {
@@ -207,6 +211,16 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 			}
 			return;
 		}
+		case ResultCode.RESULT_SAVE_ERROR_01: {
+			showToast("优先抄分表");
+			btnNextClick(null);
+			break;
+		}
+		case ResultCode.RESULT_SAVE_ERROR_02: {
+			showToast("总表水量错误");
+			requestSerach(pageNum, true, false);
+			break;
+		}
 		default:
 			break;
 		}
@@ -222,6 +236,7 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 		tvUsertelephone.setText(logic.bd.getTelephone());
 		tvUserMobilephone.setText(logic.bd.getMobilephone());
 		tvWatertype.setText(logic.bd.getWatertype());
+		tvBookid.setText(logic.bd.getBookid());
 		etThisReading.setText("");
 	}
 
