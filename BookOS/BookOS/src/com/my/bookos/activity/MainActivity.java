@@ -1,11 +1,14 @@
 package com.my.bookos.activity;
 
+import java.text.DecimalFormat;
 import java.util.Calendar;
 
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnDismissListener;
 import android.os.Bundle;
 import android.os.Message;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -65,6 +68,9 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 	@ViewInject(R.id.etThisReading)
 	private EditText etThisReading;
 
+	@ViewInject(R.id.etTelephone)
+	private EditText etTelephone;
+
 	private MainLogic logic;
 
 	private int pageNum = 1;
@@ -79,6 +85,18 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 
 	@ViewInject(R.id.tvTime)
 	private TextView tvTime;
+
+	@ViewInject(R.id.tvUsertelephone)
+	private TextView tvUsertelephone;
+
+	@ViewInject(R.id.tvUsertelephone)
+	private TextView tvUserMobilephone;
+
+	@ViewInject(R.id.tvWatertype)
+	private TextView tvWatertype;
+
+	@ViewInject(R.id.tvThisWater)
+	private TextView tvThisWater;
 
 	@Override
 	public void initData() {
@@ -102,6 +120,25 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 								AppLog.LEVEL_INFO);
 					}
 				});
+		etThisReading.addTextChangedListener(new TextWatcher() {
+
+			@Override
+			public void onTextChanged(CharSequence s, int start, int before,
+					int count) {
+
+			}
+
+			@Override
+			public void beforeTextChanged(CharSequence s, int start, int count,
+					int after) {
+
+			}
+
+			@Override
+			public void afterTextChanged(Editable s) {
+				changeWater();
+			}
+		});
 	}
 
 	@Override
@@ -112,8 +149,8 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 	public void requestSerach(int pageNum, boolean isSave,
 			boolean isSearchBtnClick) {
 
-		if (StringUtils.isEmpty(etBookId.getText().toString())) {
-			showToast(etBookId.getHint().toString());
+		if (StringUtils.isEmpty(tvTime.getText().toString())) {
+			showToast(tvTime.getHint().toString());
 			return;
 		}
 
@@ -130,12 +167,13 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 		logic.requestSerach(etBookId.getText().toString(), etName.getText()
 				.toString(), etCode.getText().toString(), etPhone.getText()
 				.toString(), LoginLogic.getInstance().user.getEmployeeid(),
-				tvTime.getText().toString(), pageNum, new HttpUtils());
+				tvTime.getText().toString(), etTelephone.getText().toString(),
+				pageNum, new HttpUtils());
 	}
 
 	@OnClick(R.id.btnSearch)
 	public void btnSearchClick(View view) {
-		
+
 		tempPageNum = 1;
 		requestSerach(tempPageNum, true, true);
 	}
@@ -181,12 +219,34 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 		tvUserAddress.setText(logic.bd.getUseraddr());
 		tvLastWater.setText(logic.bd.getLastwateramount());
 		tvLastReading.setText(logic.bd.getLastreading());
+		tvUsertelephone.setText(logic.bd.getTelephone());
+		tvUserMobilephone.setText(logic.bd.getMobilephone());
+		tvWatertype.setText(logic.bd.getWatertype());
 		etThisReading.setText("");
 	}
 
 	@OnClick(R.id.btnSave)
 	public void btnSaveClick(View view) {
 		saveData(true);
+	}
+
+	public void changeWater() {
+		if (StringUtils.isEmpty(logic.bd.getLastreading())) {
+			tvThisWater.setText("0");
+			return;
+		}
+		if (StringUtils.isEmpty(etThisReading.getText().toString())) {
+			tvThisWater.setText("0");
+		} else {
+			float lastReading = Float.valueOf(logic.bd.getLastreading());
+			float currentReading = Float.valueOf(etThisReading.getText()
+					.toString());
+
+			float currentwateramount = currentReading - lastReading;
+			DecimalFormat df = new DecimalFormat("#.00");
+			tvThisWater.setText(df.format(currentwateramount));
+		}
+
 	}
 
 	public void saveData(boolean isSave) {
@@ -198,6 +258,10 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 
 		if (StringUtils.isEmpty(etThisReading.getText().toString())) {
 			showToast(etThisReading.getHint().toString());
+			return;
+		}
+		if (StringUtils.isEmpty(logic.bd.getLastreading())) {
+			showToast("请先获取数据");
 			return;
 		}
 		float lastReading = Float.valueOf(logic.bd.getLastreading());
@@ -223,7 +287,8 @@ public class MainActivity extends SuperActivity implements MsgWhat {
 				logic.bd.getLastreading(), logic.bd.getLastwateramount(),
 				etThisReading.getText().toString(), String
 						.valueOf(currentwateramount), phoneAddress, tvTime
-						.getText().toString(), new HttpUtils());
+						.getText().toString(), logic.bd.getMeterkind(),
+				new HttpUtils());
 	}
 
 	@OnClick(R.id.btnLast)

@@ -26,6 +26,26 @@ public class BookData {
 
 	private String lastwateramount;
 
+	private String watertype;
+
+	private String meterkind;
+
+	public String getWatertype() {
+		return watertype;
+	}
+
+	public void setWatertype(String watertype) {
+		this.watertype = watertype;
+	}
+
+	public String getMeterkind() {
+		return meterkind;
+	}
+
+	public void setMeterkind(String meterkind) {
+		this.meterkind = meterkind;
+	}
+
 	public String getMobilephone() {
 		return mobilephone;
 	}

@@ -36,7 +36,7 @@ public class MainLogic extends SuperLogic implements MsgWhat {
 
 	public void requestSerach(String bookid, String username, String usercode,
 			String mobilephone, String employeeid, String readmonth,
-			int pageNum, HttpUtils httpUtils) {
+			String telephone, int pageNum, HttpUtils httpUtils) {
 		RequestParams params = new RequestParams();
 		params.addBodyParameter("bookid", bookid);
 		params.addBodyParameter("username", username);
@@ -44,6 +44,7 @@ public class MainLogic extends SuperLogic implements MsgWhat {
 		params.addBodyParameter("mobilephone", mobilephone);
 		params.addBodyParameter("employeeid", employeeid);
 		params.addBodyParameter("readmonth", readmonth);
+		params.addBodyParameter("telephone", telephone);
 		params.addBodyParameter("pageNum", pageNum + "");
 		httpHanlder = HttpSenderUtils.sendMsgImpl(HttpAction.ACTION_SEARCH,
 				params, HttpSenderUtils.METHOD_POST, httpUtils,
@@ -53,7 +54,7 @@ public class MainLogic extends SuperLogic implements MsgWhat {
 	public void requestSave(String employeeid, String userid,
 			String lastreading, String lastwateramount, String currentreading,
 			String currentwateramount, String readaddr, String readmonth,
-			HttpUtils httpUtils) {
+			String meterkind, HttpUtils httpUtils) {
 		RequestParams params = new RequestParams();
 		params.addBodyParameter("employeeid", employeeid);
 		params.addBodyParameter("userid", userid);
@@ -63,6 +64,7 @@ public class MainLogic extends SuperLogic implements MsgWhat {
 		params.addBodyParameter("currentwateramount", currentwateramount);
 		params.addBodyParameter("readaddr", readaddr);
 		params.addBodyParameter("readmonth", readmonth);
+		params.addBodyParameter("meterkind", meterkind);
 		httpHanlderSave = HttpSenderUtils.sendMsgImpl(HttpAction.ACTION_SAVE,
 				params, HttpSenderUtils.METHOD_POST, httpUtils,
 				RequestId.RID_SAVE, this, false);

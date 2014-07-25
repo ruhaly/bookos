@@ -12,6 +12,7 @@
     <string name="name">姓　名</string>
     <string name="code">编　号</string>
     <string name="mobile">手机号</string>
+    <string name="telephone">电　话</string>
     <string name="last">上一条</string>
     <string name="next">下一条</string>
     <string name="search">搜\u3000索</string>
@@ -22,6 +23,7 @@
     <string name="hint_username">输入姓名</string>
     <string name="hint_usercode">输入编号</string>
     <string name="hint_mobile">输入手机号</string>
+    <string name="hint_telephone">输入电话号码</string>
     <string name="hint_usemonth">输入读数</string>
     <string name="login_failed01">登入密码错误或用户不存在</string>
     <string name="login_failed02">抄表员手机号不区配</string>
@@ -34,6 +36,7 @@
     <string name="last_water">上次水量</string>
     <string name="last_reading">上次读数</string>
     <string name="this_reading">本次读数</string>
+    <string name="this_water">本次水量</string>
     <string name="tip_save">本次读数必须大于等于上次读数</string>
     <string name="no_more_data">没有更多数据了</string>
     <string name="location_null">定位数据为空，请等待定位完成</string>
@@ -41,5 +44,8 @@
     <string name="tip_date">日期不能大于当前日期~</string>
     <string name="more_condition">更多条件</string>
     <string name="data_empty">无抄表记录</string>
+    <string name="usertelephone">用户电话</string>
+    <string name="usermobilephone">用户手机</string>
+    <string name="watertype">用水类型</string>
 
 </resources>

@@ -28,6 +28,8 @@ public class JsonParse {
 		bd.setTelephone(jsonObject.optString("telephone"));
 		bd.setPageNum(jsonObject.optString("pageNum"));
 		bd.setLastwateramount(jsonObject.optString("lastwateramount"));
+		bd.setWatertype(jsonObject.optString("watertype"));
+		bd.setMeterkind(jsonObject.optString("meterkind"));
 		return bd;
 	}
 }
